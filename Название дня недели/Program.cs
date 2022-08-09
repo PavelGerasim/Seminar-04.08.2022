@@ -28,6 +28,7 @@ if(a == 7)
 {
     Console.WriteLine("Воскресенье");
 }
-else{
+else
+{if(a > 7){
     Console.WriteLine("Для выбранного числа нет дня недели");
-}
+}}
