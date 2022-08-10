@@ -8,10 +8,27 @@ if(x > y && x > z)
 {
     Console.WriteLine("Наибольшее число первое" );
 }
-if(y > x && y >z)
+if(y > x && y > z)
 {
     Console.WriteLine("Наибольшее число второе");
 }
-else{
+if(z > x && z > y)
+{
     Console.WriteLine("Наибольшее число третье");
+}
+if(x == y && x > z)
+{
+    Console.WriteLine("Наибольшие числа первое и второе");
+}
+if(x == z && x > y)
+{
+    Console.WriteLine("Наибольшие числа первое и третье");
+}
+if(y == z && y > x)
+{
+    Console.WriteLine("Наибольшие числа второе и третье");
+}
+if(x == y && x == z)
+{
+    Console.WriteLine("Числа равны");
 }
